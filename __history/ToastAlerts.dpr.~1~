@@ -1,0 +1,14 @@
+program ToastAlerts;
+
+uses
+  Vcl.Forms,
+  Unit3 in 'Unit3.pas' {MainView};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TMainView, MainView);
+  Application.Run;
+end.

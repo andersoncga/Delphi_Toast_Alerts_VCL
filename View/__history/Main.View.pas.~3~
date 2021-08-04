@@ -1,0 +1,28 @@
+unit Main.View;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+
+type
+  TMainView = class(TForm)
+    pnl_success: TPanel;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MainView: TMainView;
+
+implementation
+
+{$R *.dfm}
+
+end.

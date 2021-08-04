@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/08/04 14:49:01.258,=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/08/04 14:50:17.277,C:\Desenvolvimento\TostAlert\Unit3.dfm=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2021/08/04 14:50:17.277,C:\Desenvolvimento\TostAlert\Unit3.pas=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2021/08/04 14:50:39.543,C:\Desenvolvimento\TostAlert\ToastAlerts.dproj=C:\Users\Usuario\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/08/04 14:51:20.115,C:\Desenvolvimento\TostAlert\View\Main.View.dfm=C:\Desenvolvimento\TostAlert\Unit3.dfm</Transaction>
+    <Transaction>2021/08/04 14:51:20.115,C:\Desenvolvimento\TostAlert\View\Main.View.pas=C:\Desenvolvimento\TostAlert\Unit3.pas</Transaction>
+    <Transaction>2021/08/04 15:09:50.636,=C:\Desenvolvimento\TostAlert\View\ToastAlert.View.pas</Transaction>
+    <Transaction>2021/08/04 15:09:57.855,=C:\Desenvolvimento\TostAlert\Helper\Helper.GlobalFunctions.pas</Transaction>
+  </Transactions>
+</BorlandProject>

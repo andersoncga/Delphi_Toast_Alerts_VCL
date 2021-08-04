@@ -1,0 +1,60 @@
+unit Main.View;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+
+type
+  TMainView = class(TForm)
+    pnl_success: TPanel;
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Panel3: TPanel;
+    procedure pnl_successMouseEnter(Sender: TObject);
+    procedure pnl_successMouseLeave(Sender: TObject);
+    procedure pnl_successClick(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
+    procedure Panel2Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  MainView: TMainView;
+
+implementation
+
+{$R *.dfm}
+
+uses Helper.GlobalFunctions;
+
+procedure TMainView.Panel1Click(Sender: TObject);
+begin
+  ToastAlert('Informação', 'Texto informativo....', taInfo);
+end;
+
+procedure TMainView.Panel2Click(Sender: TObject);
+begin
+  ToastAlert('Erro', 'Ocorreu um erro inesperado...', taError);
+end;
+
+procedure TMainView.pnl_successClick(Sender: TObject);
+begin
+  ToastAlert('Sucesso', 'Operação concluída com sucesso', taSuccess);
+end;
+
+procedure TMainView.pnl_successMouseEnter(Sender: TObject);
+begin
+  TPanel(Sender).Font.Style := [fsBold];
+end;
+
+procedure TMainView.pnl_successMouseLeave(Sender: TObject);
+begin
+  TPanel(Sender).Font.Style := [];
+end;
+
+end.
